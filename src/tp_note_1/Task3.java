@@ -15,7 +15,7 @@ public class Task3 {
         System.out.print("Please input seconds: ");
         int sec = in.nextInt();
 
-        int result = sec+(60* min) + (3600*hour);
+        int result = sec + (60* min) + (3600*hour);
         System.out.print("Number of seconds = "+hour+"x3600 + "+min+"x60 + "+sec+" = " +result);
 
 
